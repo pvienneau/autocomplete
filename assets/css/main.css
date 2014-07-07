@@ -1,0 +1,23 @@
+html, body{font-family:Arial, Helvetica, sans-serif;}
+.ui-autocomplete-wrapper{margin-top:20px;}
+
+/*autocomplete styling*/
+.ui-autocomplete-wrapper{width:250px; height:30px;}
+.ui-autocomplete-wrapper.ui-autocomplete-wrapper-disabled{opacity:0.5;}
+.ui-autocomplete{border:1px solid #CCC; outline:none; top:0px; left:0px;}
+.ui-autocomplete, .ui-autocomplete-hint{font-size:14px; padding:5px 10px; font-family:inherit; height:inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ui-autocomplete-hint{opacity:0.4; top:2px; left:1px;}
+.ui-autocomplete-wrapper .ui-autocomplete-result-listing{margin:0px; padding:0px; list-style-type:none; border:1px solid #EEE; font-size:0.8em; top:30px;}
+.ui-autocomplete-wrapper .ui-autocomplete-result-item{padding:5px 10px; cursor:pointer;}
+.ui-autocomplete-wrapper .ui-autocomplete-result-item:hover, .ui-autocomplete-wrapper .ui-autocomplete-result-item.ui-active{background-color:#EEE;}
+
+/*autocomplete base*/
+.ui-autocomplete-wrapper{position:relative;}
+.ui-autocomplete-wrapper .ui-autocomplete-result-listing, .ui-autocomplete-wrapper .ui-autocomplete-result-item-disabled{display:none;}
+.ui-autocomplete-wrapper .ui-autocomplete-result-listing-show{display:block; position:absolute; left:0px; right:0px;}
+.ui-autocomplete{display:block; width:100%; height:100%;}
+.ui-autocomplete, .ui-autocomplete-hint{position:absolute;}
